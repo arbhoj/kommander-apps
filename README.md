@@ -54,7 +54,7 @@ sed -i -e '/apps\:/a\
 7. Install kommander with the custom settings
  
 ```
-./kommander install --kommander-applications-repository kommander-applications/ --installer-config values.yaml 
+./kommander install --kommander-applications-repository kommander-applications/ --installer-config install.yaml 
 ```
 
 8. Verify the custom apps got deployed once kommander install process completes

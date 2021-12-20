@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: elasticsearch-project-2.0.0-d2iq-defaults
+  name: elasticsearch-2.0.0-d2iq-defaults
   namespace: ${releaseNamespace}
 data:
   values.yaml: |-
